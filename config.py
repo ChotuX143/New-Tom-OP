@@ -30,7 +30,7 @@ class Config:
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", "5400"))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", "20"))
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "").split(" ")
+            url for url in getenv("COOKIES_URL", "https://batbin.me/workshops").split(" ")
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://telegra.ph/file/2879947fdf1397639a867.jpg")
