@@ -10,7 +10,7 @@ from AloneX.helpers import Track, utils
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
 
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsxxVuphLYutWNYjYHW0h4") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBots2fP8D70NiVd3ebso1FQV") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT
 
 DOWNLOAD_DIR = "downloads"
 
